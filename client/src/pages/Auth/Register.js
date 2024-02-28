@@ -126,9 +126,9 @@ const Register = () => {
                     setRole(value);
                   }}
                 >
-                  <Option value= {0}>User</Option>
-                  <Option value={1}>Admin</Option>
-                  <Option value={2}>Delievery Person</Option>
+                  <Option value= "0">User</Option>
+                  <Option value= "1">Admin</Option>
+                  <Option value= "2">Delievery Person</Option>
                 </Select>
               </div>
           
