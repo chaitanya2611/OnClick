@@ -35,7 +35,7 @@ app.use("/api/v1/product", productRoutes);
 app.use("/api/v1/admin-category", adminCategoryRoutes);
 
 //rest api
-app.use("*",function(req,res){
+app.use("/",function(req,res){
     res.sendFile(path.join(__dirname,"./client/public/index.html"));
 })
 app.get('/',(req,res)=>{
